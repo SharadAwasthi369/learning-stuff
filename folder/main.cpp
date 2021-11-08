@@ -12,7 +12,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int kadang(int n, int array[]){
+int kadane(int n, int array[]){
     int best=0,sum=0;
     R(i,0,n){
         sum=(array[i]>sum+array[i])?array[i]:sum+array[i];
@@ -30,7 +30,7 @@ int main(){
     R(i,0,n){
         cin>>array[i];
     }
-    cout<<"the maximum sum is: "<<kadang(n,array)<<endl;
+    cout<<"the maximum sum is: "<<kadane(n,array)<<endl;
     return 0;
 }
 
