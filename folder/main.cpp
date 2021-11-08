@@ -1,11 +1,3 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <bits/stdc++.h>
 #define R(i,a,b) for(int i=a;i<b;i++)
 using std::cin;
@@ -31,6 +23,7 @@ int main(){
         cin>>array[i];
     }
     cout<<"the maximum sum is: "<<kadane(n,array)<<endl;
+    delete[] array;
     return 0;
 }
 
