@@ -24,7 +24,7 @@ int main()
     }
     current->next=head;
     
-    /**the below code prints the circular list add more to find out or make a for loop to shorten the code to get more prints**/
+    /**the below code prints the circular list,add more ->next to find out or make a for loop to shorten the code to get more prints**/
     cout<<head->data;
     cout<<head->next->data;
     cout<<head->next->next->data;
